@@ -15,7 +15,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1a1919;
-    color: indigo;
+    color: #C71585;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,15 @@ body{
 h1{
     margin-bottom: 1rem;
     text-align: center;
+    color: #C71585;
+}
+
+p{
+    font-weight: bold;
+}
+
+label{
+    color: #C71585;
 }
 
 .content form{
@@ -79,7 +88,8 @@ button[type="submit"]{
     border-radius: 5px;
     margin-top: 1rem;
     background-color: var(--color-purple2);
-    color: var(--color-white);
+    color: #ffff;
+    background-color: #C71585;
     cursor: pointer;
     transition: .3s;
 }
